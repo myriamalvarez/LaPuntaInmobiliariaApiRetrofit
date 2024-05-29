@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".ui.perfil.CambiarClaveFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clave Actual"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/etClaveActual"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:hint="Ingrese su clave actual"
+        android:padding="16dp"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clave Nueva"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/etClaveNueva"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:textSize="18dp"
+        android:inputType="textPassword"
+        android:hint="Ingrese su nueva clave"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btCambiarClave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:background="@drawable/button"
+        android:text="Guardar Cambios"/>
+
+    <TextView
+        android:id="@+id/tvError"
+        android:layout_width="302dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="36dp"
+        android:textColor="#A81648"
+        android:textStyle="bold" />
+</LinearLayout>
